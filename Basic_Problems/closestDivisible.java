@@ -2,7 +2,7 @@ package Basic_Problems;
 
 public class closestDivisible {
 
-    public static int closestDivisible(int number, int divisor) {
+    public static int closestdivisible(int number, int divisor) {
         int lower = (number / divisor) * divisor;
         int higher = lower + divisor;
 
@@ -17,7 +17,7 @@ public class closestDivisible {
         int number = 13;
         int divisor = 4;
         System.out.println("Closest number divisible by " + divisor + " is: "
-                + closestDivisible(number, divisor));
+                + closestdivisible(number, divisor));
     }
 
 }
